@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+ list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0 10px 0;
+    background-color: rgb(27, 25, 25);
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+main{
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+#title{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 50px;
+    margin-bottom: 10px;
+    background: linear-gradient( gray, lightgray);
+    color: black;
+}
+.img-div{
+    padding: 10px;
+    background: linear-gradient(  lightgray, gray);
+    color: black;
+}
+#image{
+    max-width: 100%;
+}
+.img-item{
+    margin: 20px auto;
+    display: block;   
+}
+.img-caption::before{content: '" ';}
+.img-caption::after{content: ' "';}
+
+.img-caption{
+    min-width: 80%;
+    text-align: center; 
+    margin-bottom: 10px ;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Sen", sans-serif;    
+}
+.info-title{
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+.timeline-li{
+    width: 80%;
+    margin: 0 auto;
+}
+.timeline-li li{
+    margin-bottom: 10px;
+}
+.timeline-year{
+    font-weight: bold;
+}
+.wiki-link{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
